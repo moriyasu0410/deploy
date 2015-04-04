@@ -1,0 +1,12 @@
+{
+  "name": "local",
+  "default_attributes": {},
+  "json_class": "Chef::Role",
+  "description": "local",
+  "chef_type": "role",
+  "run_list": [
+    "recipe[yum]",
+    "recipe[base]",
+    "recipe[hubot]"
+  ]
+}
